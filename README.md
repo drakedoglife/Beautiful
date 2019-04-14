@@ -1,0 +1,2 @@
+# Beautiful
+A beautiful page
