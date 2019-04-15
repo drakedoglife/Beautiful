@@ -83,7 +83,7 @@
 	top: 390px;
 	margin-top: -150px;
 	left: 50%; 
-	margin-left: -300px;
+	margin-left: -254.5px;
 	z-index: 2;
 }
 
@@ -112,6 +112,27 @@
 .main form .form_container {
 	margin-bottom: 20px;
 	background-color: transparent;
-	color: white;
+	color: gray;
 }
+
+.main form input:hover,
+.main form textarea:hover {
+	border: 2px solid #07cbc9;
+}
+
+.main form button:hover {
+	border: 0;
+	background-color: #07cbc9;
+}
+
+/*ABOUT区*/
+.about {
+	width: 100%;
+}
+
+.about .top {
+	text-align: center;
+	width: 400px;
+}
+
 
