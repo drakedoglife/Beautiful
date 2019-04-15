@@ -3,11 +3,14 @@
 	margin: 0;
 	font-family: "微软雅黑";
 }
+
+
 /*清除浮动*/
 .clearfix:after {
 	content: ".";
 	display: block;
 	height: 0;
+	width: 0;
 	visibility: hidden;
 	clear: both;
 }
@@ -16,6 +19,7 @@
 .header {
 	background: #07cbc9;
 	width: 100%;
+	min-width: 1200px;
 	height: 80px;
 	position: fixed;
 	z-index: 5;
@@ -157,8 +161,21 @@
 	margin-top: 10px;
 }
 /*ABOUT中部*/
+.about .middle {
+	padding-top: 30px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
 .about .middle .left {
-	width: 372px;
+	background: transparent;
+}
+
+.about .middle .left h2 {
+	width: 150px;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 5px;
 }
 
 .about .middle .left .left_container {
@@ -169,7 +186,51 @@
 	line-height: 2em;
 }
 
+.about .middle .left .left_container button {
+	width: 102px;
+	height: 43px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.about .middle .center {
+	text-align: center;
+}
+
 .about .middle .center img {
 	width: 568px;
 	height: 380px;
 }
+
+.about .middle .right {
+	width: 240px;
+}
+
+.about .middle .right .right_box {
+	width: 238px;
+	height: 114px;
+	text-align: center;
+	border: 1px solid #07cbc9;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	position: relative;
+	left: 50%;
+	margin-left: -119px;
+}
+
+.about .middle .right .right_box hr {
+	width: 40px;
+	height: 2px;
+	background-color: #07cbc9;
+	display: inline-block;
+	border: none;
+	margin-bottom: 5px;
+}
+
+.about .middle .middle_container {
+	width: 33.3%;
+	float: left;
+}
+
