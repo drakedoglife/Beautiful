@@ -121,7 +121,7 @@
 }
 
 .main form button:hover {
-	border: 0;
+	border: none;
 	background-color: #07cbc9;
 }
 
@@ -129,10 +129,31 @@
 .about {
 	width: 100%;
 }
-
+/*ABOUT顶部*/
 .about .top {
 	text-align: center;
-	width: 400px;
+	width: 500px;
+	position: relative;
+	left: 50%;
+	margin-left: -250px;
+	padding-top: 40px;
+}
+
+.about .top h1 {
+	font-size: 40px;
+}
+
+.about .top hr {
+	width: 40px;
+	height: 2px;
+	background-color: #07cbc9;
+	display: inline-block;
+	border: none;
+}
+
+.about .top p {
+	color: gray;
+	margin-top: 10px;
 }
 
 
