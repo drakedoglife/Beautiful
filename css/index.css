@@ -168,7 +168,8 @@
 }
 
 .about .middle .left {
-	background: transparent;
+	position: relative;
+	left: 150px;
 }
 
 .about .middle .left h2 {
@@ -180,10 +181,13 @@
 
 .about .middle .left .left_container {
 	width: 330px;
-	height: 200px;
+	height: 206px;
 	border: 1px solid gray;
 	padding: 20px;
 	line-height: 2em;
+	background-color: transparent;
+	position: relative;
+	z-index: 2;
 }
 
 .about .middle .left .left_container button {
@@ -193,6 +197,17 @@
 	color: white;
 	font-weight: bold;
 	margin-top: 20px;
+}
+
+.about .middle .left .left_layer {
+	width: 370px;
+	height: 246px;
+	border: 1px solid gray;
+	position: absolute;
+	background-color: white;
+	opacity: 0.4;
+	bottom: 0;
+	z-index: 1;
 }
 
 .about .middle .center {
@@ -217,7 +232,6 @@
 	padding-top: 30px;
 	position: relative;
 	left: 50%;
-	margin-left: -119px;
 }
 
 .about .middle .right .right_box hr {
@@ -233,4 +247,6 @@
 	width: 33.3%;
 	float: left;
 }
+/*about底部*/
+
 
