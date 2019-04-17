@@ -199,6 +199,12 @@
 	margin-top: 20px;
 }
 
+.about .middle .left .left_container button:hover {
+	background-color: transparent;
+	border: 1px solid black;
+	color: black;
+}
+
 .about .middle .left .left_layer {
 	width: 370px;
 	height: 246px;
@@ -217,6 +223,9 @@
 .about .middle .center img {
 	width: 568px;
 	height: 380px;
+	position: relative;
+	left: 50%;
+	margin-left: -284px;
 }
 
 .about .middle .right {
@@ -231,7 +240,7 @@
 	margin-bottom: 20px;
 	padding-top: 30px;
 	position: relative;
-	left: 50%;
+	left: 45%;
 }
 
 .about .middle .right .right_box hr {
@@ -248,5 +257,53 @@
 	float: left;
 }
 /*about底部*/
+.about .bottom {
+	width: 100%;
+	margin-top: 100px;
+}
 
+.about .bottom .quarter {
+	width: 25%;
+	height: 400px;
+	float: left;
+}
 
+.about .bottom .bottom_text {
+	background: #07cbc9;
+	line-height: 1.5em;
+}
+
+.about .bottom .bottom_text h2,
+.about .bottom .bottom_text p,
+.about .bottom .bottom_text button {
+	margin: 35px 20px 0 40px;
+}
+
+.about .bottom .bottom_text h2,
+.about .bottom .bottom_text .p_top {
+	color: white;
+}
+
+.about .bottom .bottom_text h2 {
+	font-size: 40px;
+}
+
+.about .bottom .bottom_text .p_down {
+	color: gray;
+	font-size: 14px;
+}
+
+.about .bottom .bottom_text button {
+	width: 102px;
+	height: 43px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	padding: 0;
+}
+
+.about .bottom .bottom_text button:hover {
+	background-color: transparent;
+	border: 1px solid black;
+	color: black;
+}
