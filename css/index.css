@@ -299,7 +299,9 @@
 	background-color: black;
 	color: white;
 	font-weight: bold;
-	padding: 0;
+	position: relative;
+	left: 50%;
+	margin-left: -51px;
 }
 
 .about .bottom .bottom_text button:hover {
@@ -307,3 +309,84 @@
 	border: 1px solid black;
 	color: black;
 }
+/*gallery区域*/
+.main .gallery {
+	width: 100%;
+	padding-top: 50px;
+}
+
+.main .gallery .gallery_text {
+	width: 530px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.main .gallery .gallery_text h2 {
+	font-size: 50px;
+}
+
+.main .gallery .gallery_text hr {
+	width: 40px;
+	height: 2px;
+	background-color: #07cbc9;
+	display: inline-block;
+	border: none;
+	margin-bottom: 5px;
+}
+
+.main .gallery .gallery_text p {
+	color: gray;
+}
+
+.main .gallery .gallery_image {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.main .gallery .gallery_image dl {
+	float: left;
+	width: 360px;
+	height: 304px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+}
+
+.main .gallery .gallery_image dd {
+	height: 64px;
+	color: white;
+	background-color: black;
+	position: relative;
+	margin-top: -5px;
+	padding-left: 20px;
+	line-height: 64px;
+}
+/*footer区域*/
+.footer {
+	width: 100%;
+	height: 80px;
+	background-color: #07cbc9;
+	margin-top: 40px;
+}
+
+.footer p {
+	text-align: center;
+	line-height: 80px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
